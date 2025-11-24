@@ -1,6 +1,3 @@
-/* Global */
-
-
 *,
 *::before,
 *::after {
@@ -54,15 +51,12 @@ ol {
   white-space: nowrap;
 }
 
-/* Layout */
-
 .content {
   display: flex;
   align-items: end;
   gap: 30px;
 }
 
-/* Left column */
 
 .result {
   display: flex;
@@ -70,7 +64,6 @@ ol {
   gap: 16px;
 }
 
-/* video */
 
 .result__video-container {
   position: relative;
@@ -85,7 +78,6 @@ ol {
   object-position: center;
 }
 
-/* form */
 
 .search-form {
   display: flex;
@@ -106,7 +98,7 @@ ol {
   font-size: 18px;
 }
 
-/* form textfield */
+
 .search-form__textfield {
   width: 225px;
   height: 27px;
@@ -136,7 +128,7 @@ ol {
   outline: none;
 }
 
-/* form checkbox */
+
 
 .search-form__checkbox-list {
   display: flex;
@@ -176,13 +168,13 @@ ol {
   background-position: center;
 }
 
-/* form button */
+
 .search-form__submit-button {
   align-self: end;
   width: 194px;
 }
 
-/* Right colunm */
+
 
 .content__details {
   display: flex;
@@ -211,9 +203,7 @@ ol {
   overflow-y: auto;
 }
 
-/* cards template */
 
-/* Use :has due to consequences of use margin in child */
 .content__list-item:has(.content__card-link_current) {
   background-color: #545050;
 }
@@ -280,7 +270,7 @@ ol {
   width: 100%;
 }
 
-/* Utils */
+
 
 .button {
   height: 34px;
